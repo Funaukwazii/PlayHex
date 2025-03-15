@@ -1,7 +1,7 @@
 const playlist = [
     { title: "show u luv", artist: "Blxkie", src: "assets/SpotiDownloader.com - show u luv - Blxckie.mp3", duration: "2:42" },
     { title: "Missed Calls", artist: "Lowfeye", src: "assets/SpotiDownloader.com - Missed Calls - Lowfeye.mp3", duration: "4:10" },
-    { title: "Electric Dreams", artist: "AI DJ", src: "assets/song3.mp3", duration: "2:50" }
+    { title: "Where I belong", artist: "Touchline", src: "assets/SpotiDownloader.com - Where I Belong - Touchline.mp3", duration: "4:50" }
 ];
 
 const audio = new Audio();

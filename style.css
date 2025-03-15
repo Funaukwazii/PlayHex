@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #0f0c29, #302b63, #24243e);
+    color: #fff;
+}
+
+.music-player {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, cyan, magenta);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: neon-flicker 1.5s infinite alternate;
+}
+
+@keyframes neon-flicker {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+.player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.controls button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.controls button:hover {
+    background: cyan;
+    color: black;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    height: 5px;
+    background: cyan;
+    border-radius: 5px;
+    cursor: pointer;
+}

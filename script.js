@@ -1,5 +1,5 @@
 const playlist = [
-    { title: "show u luv", artist: "Blxkie", src: "assets/show u luv - Blxckie.mp3", duration: "2:42" },
+    { title: "show u luv", artist: "Blxkie", src: "assets/song_1.mp3", duration: "2:42" },
     { title: "Neon Pulse", artist: "Synth Lord", src: "assets/song2.mp3", duration: "4:10" },
     { title: "Electric Dreams", artist: "AI DJ", src: "assets/song3.mp3", duration: "2:50" }
 ];

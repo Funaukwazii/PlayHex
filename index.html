@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayHex - Futuristic Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="music-player">
+        <h1>PlayHex</h1>
+
+        <div class="player-container">
+            <div class="glass">
+                <ul id="playlist"></ul>
+
+                <div class="controls">
+                    <button id="prev">⏮</button>
+                    <button id="playPause">▶️</button>
+                    <button id="next">⏭</button>
+                </div>
+
+                <input type="range" id="progress" value="0">
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+                
+                <p id="current-song">Select a song...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
